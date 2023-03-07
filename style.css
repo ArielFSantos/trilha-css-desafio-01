@@ -54,6 +54,7 @@ h2{
     flex-grow: 0;
 }
 button{
+    
     margin: 50px 0;
     color: #31A8DD;
     width: 370px;
@@ -75,10 +76,23 @@ button{
     order: 0;
     flex-grow: 0;
 }
+.banner .banner-content button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
 .logo{}
 .banner img{
     margin-top: 83px;
 }
+
 .banner p{
     padding-top: 20px;
     width: 510px;
@@ -121,6 +135,8 @@ button{
     display: flex ;
     flex-direction: column;
     align-items: center;
+    font-family: 'Raleway';
+    padding-bottom: 90px;
 }
 .module {
     box-sizing: border-box;
